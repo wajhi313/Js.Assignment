@@ -13,41 +13,49 @@ chapter = 1
 // alert("Wajji here")
 // alert("Assignment Done")
 
+// Que 5
+// alert("heyyy... This is me your Teacher")
+
 
 Chapter = 2
 
 // Que 1
-// var firstName = "Wajhi";
+// var username;
 
 // Que 2
-// var lastName = "Rizvi";
+// var myName = "Wajhi Rizvi";
 
 // Que 3
-// var fullName = firstName + " " + lastName
-// console.log(fullName)
+// var message =("HELLO WORLD")
+// alert(message)
 
 // Que 4
-// alert(fullName);
+// var names = " Ali Rizvi" ;
+// var Age = " 21"
+// var Degree = " Web development"
+
+// alert("Name" + names)
+// alert("age" + Age)
+// alert("Course" + Degree)
 
 // Que 5
-// studentName = "Wajhi"
-// studentAge = "21"
-// studentCourse = "Webdevelopment"
-// alert("Name: " + studentName);
-// alert("Age: " + studentAge);
-// alert("Course: " + studentCourse);
-
-// Que 6
 // var pizza = "BURGER\nBURGE\nBURG\nBUR\nBU\nB";
 // alert(pizza);
 
-// Que 7
-//  var email = "smart.wajhee96@gmail.com";
-//  alert("My email address is " + email);  
+// Que 6
+// var email = "smart.wajhee96@gmail.com"
+// alert( "My Email Address is " + email) 
 
-// Que 8
+// Que 7
 // var book = "A smarter way to learn JavaScript";
 // alert("I am trying to learn from the book " + book);
+ 
+// Que 8 
+// document.write("Yahh.. I can do write anything throught javascript")
+
+// Que 9
+// var ajeebcheezen = "-------{ ( [H] ) }-------"
+// alert(ajeebcheezen)
 
 Chapter = 3
 
