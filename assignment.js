@@ -69,11 +69,85 @@ Chapter = 3
 
 // Que 3   
 // var birthYear = 2004;
-// document.write("My birth year is " + birthYear + "<br>");
-// document.write("Data type of my declared variable is number");
+// console.log("My birth year is " + birthYear );
+// console.log("Data type of my declared variable is number");
 
 // Que 4
 //  var visitorName = "Wajji Rizvi";
 //  var productTitle = "Drop-Shoulders";
 //  var quantity = 5;
 //  document.write(visitorName + " ordered " + quantity + " " + productTitle + "(s) on ABC Clothing store");
+
+Chapter = 4
+
+// Que 1
+// var wajhi, twenty, karachi;
+
+// Que 2
+// legal variable names ==>
+// var hey, _hey, Hey, hEY, $hey;
+// illegal variable ==>
+// var 1hey;
+// var var;
+// let let;
+// var @hey;
+// var hey wajhi;
+
+// Que 3
+// var $my_1stVariable = "Check my answers in HTML";
+// console.log($my_1stVariable);
+
+Chapter = 5
+
+// // Que 1
+// let num1 = 3;
+// let num2 = 5;
+
+// let sum = num1 + num2;
+// console.log(sum)
+// console.log("sum of" + num1 + "and" + num2 + "is" + sum);
+
+// Que 2
+// let num1 = 5;
+// let num2 = 2;
+
+// let sum = num1 - num2;
+// console.log(sum)
+// console.log("sum of" + num1 + "and" + num2 + "is" + sum)
+
+// let num1 = 5;
+// let num2 = 2;
+
+// let sum = num1 * num2;
+// console.log(sum)
+// console.log("sum of" + num1 + "and" + num2 + "is" + sum)
+
+// let num1 = 6;
+// let num2 = 5;
+
+// let sum = num1 % num2;
+// console.log(sum)
+// console.log("sum of" + num1 + "and" + num2 + "is" + sum)
+
+ Chapter = 6
+
+// Que 1
+// let a = 10;
+
+//         console.log("Result:");
+//         console.log("The value of a is: " + a);
+
+//         console.log("The value of ++a is: " + (++a));
+//         console.log("Now the value of a is: " + a);
+
+//         console.log("The value of a++ is: " + (a++));
+//         console.log("Now the value of a is: " + a);
+
+//         console.log("The value of --a is: " + (--a));
+//         console.log("Now the value of a is: " + a);
+
+//         console.log("The value of a-- is: " + (a--));
+//         console.log("Now the value of a is: " + a);
+
+Chapter = 7
+
