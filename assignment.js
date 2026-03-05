@@ -129,7 +129,103 @@ Chapter = 5
 // console.log(sum)
 // console.log("sum of" + num1 + "and" + num2 + "is" + sum)
 
- Chapter = 6
+// Que 3
+// let cat;
+// console.log("After declaration " + "is " + cat)
+// cat = 3;
+// console.log("initialize value " + cat );
+
+// cat++
+// console.log("Value after increment is " + cat + "")
+// cat++
+// console.log("Value after this is " + cat + "")
+// cat += 7
+// console.log("Value after add 7 is " + cat + "")
+
+// cat--
+// console.log("After minus " + cat + "")
+// cat /= 3
+// console.log("After divide " + cat  + "" )
+// cat *= 0
+// console.log("The Reminder is " + cat + "")
+
+// Que 4
+// let ticketPrice = 600;
+// let ticketQuantity = 5;
+// let calculate = ticketPrice * ticketQuantity;
+// console.log(calculate);
+
+// console.log("Total cost to buy " + ticketQuantity + " tickets to a movie is " + calculate  )
+
+// Que 5
+// function multiplicationTable(number) {
+//     let output = "";
+//     for (let i = 1; i <= 10; i++) {
+//         output += `${number} x ${i} = ${number * i} <br>`;
+//     }
+
+//     document.getElementById("tableOutput").innerHTML = output;
+//     document.getElementById("num").innerText = number;
+// }
+
+// multiplicationTable(5);
+
+// Que 6
+// let celsius = 25
+
+// let fahrenheitFromC = (celsius * 9 / 5) + 32;
+// console.log(celsius + "°C is " + fahrenheitFromC + "°F");
+
+// let fahrenheit = 70;
+
+// let celsiusitFromF = (fahrenheit - 32) * 5 / 9;
+// console.log(fahrenheit + "°F is" + celsiusitFromF +"°C" )
+// Some answers left
+
+Chapter = 6
+
+// let a = "10"
+// console.log(a)
+// console.log("The value of a is: " + a );
+
+// console.log("The value of ++a is: " +(++a));
+// console.log("Now the value of a is: "+ a );
+
+// console.log("The value of a++ is: " + (a++) );
+// console.log("Now the value of a is: " + a);
+
+// console.log("The value of --a is: " + (--a));
+// console.log("Now the value of a: " +  a)
+
+// console.log("The value of a-- is: " + (a--));
+// console.log("Now the value of a is: " + a);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter = 6
 
 // Que 1
 // let a = 10;
