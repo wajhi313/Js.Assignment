@@ -49,7 +49,7 @@ Chapter = 2
 // Que 7
 // var book = "A smarter way to learn JavaScript";
 // alert("I am trying to learn from the book " + book);
- 
+
 // Que 8 
 // document.write("Yahh.. I can do write anything throught javascript")
 
@@ -182,8 +182,9 @@ Chapter = 5
 // console.log(fahrenheit + "°F is" + celsiusitFromF +"°C" )
 // Some answers left
 
-Chapter = 6
+Chapter = 6 ^ 9
 
+// Que 1
 // let a = "10"
 // console.log(a)
 // console.log("The value of a is: " + a );
@@ -200,50 +201,458 @@ Chapter = 6
 // console.log("The value of a-- is: " + (a--));
 // console.log("Now the value of a is: " + a);
 
+// Que 2
+// var a = 2;
+// var b = 1;var result = --a - --b + ++b + b--;
+
+// console.log("a = " + a);
+// console.log( "b = " + b);
+// console.log(result);
+
+// Que 3
+// var name = prompt("Enter your name: ")
+// var Greet = prompt("Enter a greet: ")
+
+// Que 4
+// var num = prompt("Enter a number: ")
+// if (!num) {
+//     num = 2;
+// }
+// document.writeln( "Table of " + num + "</br>" )
+// for (var i = 1; i <= 10; i++) {
+// document.writeln(num + "x" + i + "="  + (num * i) + "</br> " );
+// }
+
+// Que 5
+// var subject1 = prompt("Enter first subject name");
+// var subject2 = prompt("Enter second subject :");
+// var subject3 = prompt("Enter third subject :");
+// var totalMarksPerSubject = "100";
+// var obtained1 = parseInt(prompt("Enter obtained marks for " + subject1 + ":"));
+// var obtained2 = parseInt(prompt("Enter obtained marks for " + subject2 + ":"));
+// var obtained3 = parseInt(prompt("Enter obtained marks for " + subject3 + ":"));
+// var totalMarks = totalMarksPerSubject * 3;
+// var obtainedTotal = obtained1 + obtained2 + obtained3;
+// var percentage = (obtainedTotal / totalMarks) * 100;
+// document.writeln("<h2>Result</h2>");
+// document.writeln("<table border='1' cellpadding='5'>");
+// document.writeln("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+// document.writeln("<tr><td>" + subject1 + "</td><td>" + totalMarksPerSubject + "</td><td>" + obtained1 + "</td></tr>");
+// document.writeln("<tr><td>" + subject2 + "</td><td>" + totalMarksPerSubject + "</td><td>" + obtained2 + "</td></tr>");
+// document.writeln("<tr><td>" + subject3 + "</td><td>" + totalMarksPerSubject + "</td><td>" + obtained3 + "</td></tr>");
+// document.writeln("</table><br>");
+// document.writeln("Total Obtained Marks: " + obtainedTotal + " / " + totalMarks + "<br>");
+// document.writeln("Percentage: " + percentage.toFixed(2) + "%");
 
 
+// var subject10 = "English ";
+// var subject20 = "Urdu ";
+// var subject30 = "Maths ";
+// var totalSubjectsMarks = "50"
+// var obtainFirst = prompt("Enter first subject marks " + subject10 + ":" )
+// var obtainSecond = prompt("Enter first subject marks " + subject20 + ":" )
+// var obtainThird = prompt("Enter first subject marks " + subject30 + ":" )
+// var totalMark = totalSubjectsMarks * 3;
+// var obtainTotal = subject10 + subject20 + subject30 ;
+// var percent = (obtainTotal / totalMark) * 100;
+// document.writeln("<h2>Result</h2>");
+// document.writeln("<table border='1' cellpadding='5'>");
+// document.writeln("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+// document.writeln("<tr><td>" + subject10 + "</td><td>" + totalSubjectsMarks + "</td><td>" + obtainFirst + "</td></tr>");
+// document.writeln("<tr><td>" + subject2 + "</td><td>" + totalSubjectsMarks + "</td><td>" + obtainSecond + "</td></tr>");
+// document.writeln("<tr><td>" + subject3 + "</td><td>" + totalSubjectsMarks + "</td><td>" + obtainThird + "</td></tr>");
+// document.writeln("</table><br>");
+// document.writeln("total obtain marks: " + obtainTotal + "/" + totalMark + "</br>");
+// document.writeln("Percentage: " + percent.toFixed(2)+ "%" )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Chapter = 6
+Chapter = 9 ^ 11
 
 // Que 1
-// let a = 10;
+// let city = prompt("Enter your city name: ");
+// if(city === "karachi"){
+//     alert("Wellcome to the city of lights");
+// } else{
+//     alert("Wellcome to " + city );
+// }
 
-//         console.log("Result:");
-//         console.log("The value of a is: " + a);
+// Que 2
+// let gender = prompt("Enter your gender (male/female):").toLowerCase();
 
-//         console.log("The value of ++a is: " + (++a));
-//         console.log("Now the value of a is: " + a);
+// if (gender === "male") {
+//     alert("Good Morning Sir");
+// } else if (gender === "female") {
+//     alert("Good Morning Ma'am");
+// } else {
+//     alert("Invalid input");
+// }
 
-//         console.log("The value of a++ is: " + (a++));
-//         console.log("Now the value of a is: " + a);
+// Que 3
+// let color = prompt("Enter the traffic signal color (Red/Yellow/Green):").toLowerCase();
+// switch (color) {
+//     case "red":
+//         alert("Must Stop");
+//         break;
+//     case "yellow":
+//         alert("Ready to move");
+//         break;
+//     case "green":
+//         alert("Move now");
+//         break;
+//     default:
+//         alert("Invalid color");
+// }
 
-//         console.log("The value of --a is: " + (--a));
-//         console.log("Now the value of a is: " + a);
+// Que 4
+// let fuel = prompt("Enter the remaining fuel in your car (in litres):");
+// fuel = parseFloat(fuel);
+// if (fuel < 0.25) {
+//     alert("Please refill the fuel in your car");
+// } else {
+//     alert("Fuel level is sufficient");
+// }
+ 
+// Que 5
+// a . 
+// var a = 4;
+// if (++a == 5) {
+//     alert("given condition for variable a is true");
+// }
 
-//         console.log("The value of a-- is: " + (a--));
-//         console.log("Now the value of a is: " + a);
+// b.
+// var b = 82;
+// if (b++ == 83) {
+//     alert("given condition for variable b is true");
+// }
 
-Chapter = 7
+// c .
+// var c = 12;
+// if (c++ === 13) {
+//     alert("condition 1 is true");
+//     if (c-- == 13) { // corrected syntax
+//         alert("condition 2 is true");
+//         if (++c < 14) {
+//             alert("condition 3 is true");
+//             if (c == 13) // corrected syntax
+//                 alert("condition 4 is true");
+//     }
+// }
 
+// d .
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost == laborCost + materialCost) {
+//     alert("The cost equals");
+// }
+
+// e .
+// if (true) {
+//     alert("True");
+// }
+// if (false) {
+//     alert("False");
+// }
+
+// f .
+// if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// }
+
+
+// Que 6
+
+// let subject1 = parseInt(prompt("Enter marks for Subject 1:"));
+// let subject2 = parseInt(prompt("Enter marks for Subject 2:"));
+// let subject3 = parseInt(prompt("Enter marks for Subject 3:"));
+// let totalMarks = parseInt(prompt("Enter total marks:"));
+
+// let obtainedMarks = subject1 + subject2 + subject3;
+// let percentage = (obtainedMarks / totalMarks) * 100;
+
+
+// let grade, remarks;
+
+// if (percentage >= 80) {
+//   grade = "A-one";
+//   remarks = "Excellent";
+// } else if (percentage >= 70) {
+//   grade = "A";
+//   remarks = "Good";
+// } else if (percentage >= 60) {
+//   grade = "B";
+//   remarks = "You need to improve";
+// } else {
+//   grade = "Fail";
+//   remarks = "Sorry";
+// }
+
+// document.writeln("<h2>Marks Sheet</h2>");
+// document.writeln("Total marks : " + totalMarks + "<br>");
+// document.writeln("Marks obtained : " + obtainedMarks + "<br>");
+// document.writeln("Percentage : " + percentage.toFixed(2) + "%<br>");
+// document.writeln("Grade : " + grade + "<br>");
+// document.writeln("Remarks : " + remarks + "<br>");
+
+// Que 7
+// var secretNumber = 7;
+
+// var userGuess = prompt("Guess the secret number (between 1 and 10):");
+// userGuess = parseInt(userGuess);
+
+// if (userGuess === secretNumber) {
+//     alert("Bingo! Correct answer");
+// } else if (userGuess + 1 === secretNumber) {
+//     alert("Close enough to the correct answer");
+// } else {
+//     alert("Sorry, wrong guess!");
+// }
+
+// Que 8
+// function checkDivisibleBy3() {
+//     let num = prompt("Enter a number:");
+//     num = parseInt(num);
+//     if (num % 3 === 0) {
+//         alert("The number is divisible by 3.");
+//     } else {
+//         alert("The number is not divisible by 3.");
+//     }
+// }
+// checkDivisibleBy3();
+
+// Que 9
+// function checkEvenOdd() {
+//     let num = prompt("Enter a number:");
+//     num = parseInt(num);
+//     if (num % 2 === 0) {
+//         alert("The number is even.");
+//     } else {
+//         alert("The number is odd.");
+//     }
+// }
+// checkEvenOdd();
+
+// Que 10
+// function checkTemperature() {
+//     let T = prompt("Enter the temperature:");
+//     T = parseFloat(T);
+//     if (T > 40) {
+//         alert("It is too hot outside.");
+//     } else if (T > 30) {
+//         alert("The Weather today is Normal.");
+//     } else if (T > 20) {
+//         alert("Today’s Weather is cool.");
+//     } else if (T > 10) {
+//         alert("OMG! Today’s weather is so Cool.");
+//     } else {
+//         alert("Temperature is below 10.");
+//     }
+// }
+// checkTemperature();
+
+// Que 11
+// const prompt = require('prompt-sync')();
+
+// let num1 = parseFloat(prompt("Enter first number: "));
+// let num2 = parseFloat(prompt("Enter second number: "));
+// let operation = prompt("Enter operation (+, -, *, /, %): ");
+
+// let result;
+
+// if (operation === '+') {
+//     result = num1 + num2;
+// } else if (operation === '-') {
+//     result = num1 - num2;
+// } else if (operation === '*') {
+//     result = num1 * num2;
+// } else if (operation === '/') {
+//     if (num2 !== 0) {
+//         result = num1 / num2;
+//     } else {
+//         result = "Error: Division by zero";
+//     }
+// } else if (operation === '%') {
+//     if (num2 !== 0) {
+//         result = num1 % num2;
+//     } else {
+//         result = "Error: Modulo by zero";
+//     }
+// } else {
+//     result = "Invalid operation";
+// }
+
+// console.log("Result: " + result);
+
+Chapter = 12 ^ 13
+
+// Que 1
+// function checkLetter() {
+//     let char = prompt("Enter a character:");
+//     let ascii = char.charCodeAt(0);
+//     if (ascii >= 65 && ascii <= 90) {
+//         alert("Uppercase letter");
+//     } else if (ascii >= 97 && ascii <= 122) {
+//         alert("Lowercase letter");
+//     } else {
+//         alert("Not a letter");
+//     }
+// }
+
+// Que 2
+// function compareIntegers() {
+//     let num1 = parseInt(prompt("Enter first integer:"));
+//     let num2 = parseInt(prompt("Enter second integer:"));
+//     if (num1 > num2) {
+//         alert(`Larger number: ${num1}`);
+//     } else if (num2 > num1) {
+//         alert(`Larger number: ${num2}`);
+//     } else {
+//         alert("Both numbers are equal.");
+//     }
+// }
+
+// Que 3
+// function checkNumber() {
+//     let num = parseFloat(prompt("Enter a number:"));
+//     if (num > 0) {
+//         alert("Positive number");
+//     } else if (num < 0) {
+//         alert("Negative number");
+//     } else {
+//         alert("Zero");
+//     }
+// }
+
+// Que 4
+// function isVowel() {
+//     let char = prompt("Enter a character:").toLowerCase();
+//     let vowels = ['a', 'e', 'i', 'o', 'u'];
+//     let result = vowels.includes(char);
+//     alert(result ? "True" : "False");
+// }
+
+// Que 5
+// function passwordCheck() {
+//     let correctPassword = "secure123";
+//     let userPassword = prompt("Enter your password:");
+    
+//     if (userPassword === "") {
+//         alert("Please enter your password");
+//     } else if (userPassword === correctPassword) {
+//         alert("Correct! The password you entered matches the original password.");
+//     } else {
+//         alert("Incorrect password");
+//     }
+// }
+
+// Que 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+// } else {
+//   greeting = "Good evening";
+// }
+// console.log(greeting); 
+
+// Que 7
+// function convertTime(time24) {
+//   let hour = Math.floor(time24 / 100);
+//   let minute = time24 % 100;
+//   let period = "";
+  
+//   if (hour === 0) {
+//     hour = 12;
+//     period = "am";
+//   } else if (hour < 12) {
+//     period = "am";
+//   } else if (hour === 12) {
+//     period = "pm";
+//   } else {
+//     hour = hour - 12;
+//     period = "pm";
+//   }
+  
+//   let time12 = hour + ":" + (minute < 10 ? "0" + minute : minute) + period;
+//   return time12;
+// }
+
+// let userInput = 1900;
+// console.log(convertTime(userInput));  
+
+
+Chapter = 14 ^ 16
+
+// Que 1
+// let studentNamesLiteral = [];
+
+// Que 2
+// let studentNamesObject = new Array();
+
+// Que 3
+// let stringsArray = ["apple", "banana", "cherry"];
+
+// Que 4
+// let numbersArray = [1, 2, 3, 4, 5];
+
+// Que 5
+// let booleanArray = [true, false, true];
+
+// Que 6
+// let mixedArray = ["text", 42, true, { key: "value" }];
+
+// Que 7
+// let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+// document.writeln("<h3>Qualifications:</h3><ol>");
+// qualifications.forEach((qual, index) => {
+//   document.writeln(`<li>${qual}</li>`);
+// });
+// document.writeln("</ol>");
+
+// Que 8
+// let studentNames = ["Michael", "John", "Tony"];
+// let studentScores = [320, 230, 480];
+// const totalMarks = 500;
+
+// for (let i = 0; i < studentNames.length; i++) {
+//     let percentage = (studentScores[i] / totalMarks) * 100;
+//     console.log(`Score of ${studentNames[i]} is ${studentScores[i]}. Percentage: ${percentage.toFixed(0)}%`);
+// }
+
+// Que 10
+// let scores = [320, 230, 480, 120];
+// console.log("Scores of Students : " + scores);
+
+// scores.sort((a, b) => a - b);
+// console.log("Ordered Scores of Students : " + scores);
+
+// Que 11
+// let cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// console.log("Cities list: " + cities);
+
+// let selectedCities = [cities[2], cities[3]];
+// selectedCities.push("Quetta"); 
+// console.log("Selected cities list: " + selectedCities);
+
+// Que 12
+// let arr = ["This", "is", "my", "cat"];
+// let result = arr.join(" ");
+// console.log(result);  
+
+// Que 13
+// let devices = ["keyboard", "mouse", "printer", "monitor"];
+// while (devices.length > 0) {
+//     console.log("Out:", devices.shift());
+// }
+
+// Que 15
+    // let manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+    
+    // document.writeln('<select>');
+    // for (let i = 0; i < manufacturers.length; i++) {
+    //     document.writeln'<option value="' + manufacturers[i] + '">' + manufacturers[i] + '</option>');
+    // }
+    // document.writeln('</select>');
+
+
+    Chapter = 
