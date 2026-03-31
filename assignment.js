@@ -310,7 +310,7 @@ Chapter = 9 ^ 11
 // } else {
 //     alert("Fuel level is sufficient");
 // }
- 
+
 // Que 5
 // a . 
 // var a = 4;
@@ -534,7 +534,7 @@ Chapter = 12 ^ 13
 // function passwordCheck() {
 //     let correctPassword = "secure123";
 //     let userPassword = prompt("Enter your password:");
-    
+
 //     if (userPassword === "") {
 //         alert("Please enter your password");
 //     } else if (userPassword === correctPassword) {
@@ -559,7 +559,7 @@ Chapter = 12 ^ 13
 //   let hour = Math.floor(time24 / 100);
 //   let minute = time24 % 100;
 //   let period = "";
-  
+
 //   if (hour === 0) {
 //     hour = 12;
 //     period = "am";
@@ -571,7 +571,7 @@ Chapter = 12 ^ 13
 //     hour = hour - 12;
 //     period = "pm";
 //   }
-  
+
 //   let time12 = hour + ":" + (minute < 10 ? "0" + minute : minute) + period;
 //   return time12;
 // }
@@ -646,13 +646,128 @@ Chapter = 14 ^ 16
 // }
 
 // Que 15
-    // let manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
-    
-    // document.writeln('<select>');
-    // for (let i = 0; i < manufacturers.length; i++) {
-    //     document.writeln'<option value="' + manufacturers[i] + '">' + manufacturers[i] + '</option>');
-    // }
-    // document.writeln('</select>');
+// let manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+// document.writeln('<select>');
+// for (let i = 0; i < manufacturers.length; i++) {
+//     document.writeln'<option value="' + manufacturers[i] + '">' + manufacturers[i] + '</option>');
+// }
+// document.writeln('</select>');
 
 
-    Chapter = 
+Chapter = 17 ^ 20
+
+// Que 1
+// let EmptyArray = [];
+
+// Que 2
+// let emptyArray = [
+//     [0, 1, 2, 3],    [1, 0, 1, 2],   [2, 1, 0, 1] 
+// ];
+
+// console.log(EmptyArray)
+// console.log(emptyArray)
+
+// Que 3
+// let num = [1,2,3,4,5,6,7,8,9,10]
+
+// for (let i = 0; i < num.length; i++){
+//     console.log(num[i])
+// }
+
+// Que 4
+// let number = parseInt(prompt("Give the number to show output"));
+// let length = parseInt(prompt("Enter the length"));
+
+// document.writeln("<h2> Multiplication of" + number +"</h2>")
+// for (let i=1; i <= length; i++) {
+//     document.writeln(number+ "X" + i + "=" + (number * i) + "<br>" );
+// }
+
+// Que 5
+// let fruit = ["apple", "banana", "orange", "Mango", "Strawberray"];
+
+// for (let i = 0; i < fruit.length; i++) {
+//     document.writeln(fruit[i] + "<br>")
+// }
+// document.writeln("<br>");
+// for (let i = 0; i < fruit.length; i++) {
+//     document.writeln("Element at index " + i + " is " + fruit[i] + "<br>")
+// }
+
+// Que 6
+// document.writeln("<h2>Counting</h2>");
+// for (let i = 0; i <= 15; i++) {
+//     document.writeln(i + ", ");
+// }
+
+// document.writeln("<h2>Reverse Counting</h2>");
+// for (let i = 15; i >= 0; i--) {
+//     document.writeln(i + ", ");
+// }
+
+// document.writeln("<h2>Even</h2>");
+// for (let i = 0; i <= 20; i += 2) {
+//     document.writeln(i + ", ");
+// }
+
+// document.writeln("<h2>Odd</h2>");
+// for (let i = 1; i <= 19; i += 2) {
+//     document.writeln(i + ", ");
+// }
+
+// document.writeln("<h2>Series</h2>");
+// for (let i=2; i<= 20; i += 2) {
+//     document.writeln(i + "k, ")
+// }
+
+// Que 7
+
+
+
+
+// Que 8
+// var A = [24, 53, 78, 91, 12];
+
+// var largest = Math.max(...A);
+
+// console.log("Array items: " + A);
+// console.log("The largest number is " + largest);
+
+// Que 9
+// var A = [24, 53, 78, 91, 12];
+// var smallest = A[0]; 
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] < smallest) {
+//     smallest = A[i];
+//   }
+// }
+// console.log("Array items: " + A);
+// console.log("The smallest number is " + smallest);
+
+// Que 10
+// var multiples = [];
+
+// for (var i = 1; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//     multiples.push(i);
+//   }
+// }
+
+// console.log("Multiples of 5 (1 to 100): " + multiples.join(", "));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
